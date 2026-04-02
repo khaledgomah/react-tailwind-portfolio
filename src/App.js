@@ -5,6 +5,7 @@ import Hero from "./partials/Hero";
 import About from "./partials/About";
 import Stats from "./partials/Stats";
 import Projects from "./partials/Projects";
+import Skills from "./partials/Skills";
 import Contact from "./partials/Contact";
 import Footer from "./partials/Footer";
 import data from "./assets/data";

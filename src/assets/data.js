@@ -12,11 +12,11 @@ const SKILL_ICON_CLASS = "text-2xl";
 const data = {
   name: "Khaled Gomah",
   title: "Junior Flutter Developer",
-  bio: "Detail-oriented Computer & Control Systems Engineer and Junior Flutter Developer with a solid foundation in Clean Architecture and BLoC. Proven experience in building production-grade apps, including IoT-integrated health platforms and enterprise transportation systems serving 2,000+ users.",
-  about: "I am a passionate software engineer who loves solving complex problems and turning ideas into scalable, high-performance mobile applications. With a strong background in Computer & Control Systems Engineering from Mansoura University (Excellent with Honors), I specialize in the Flutter SDK, Dart, and Firebase. Over the past few years, I have built production-ready applications across different sectors, from IoT wearables to enterprise B2B transportation platforms.",
+  bio: "Building seamless, scalable, and high-performance mobile applications using Flutter & Dart.",
+  about: "Detail-oriented Computer & Control Systems Engineer and Junior Flutter Developer with a solid foundation in Clean Architecture and BLoC. Proven experience in building production-grade apps, including IoT-integrated health platforms and enterprise transportation systems serving 2,000+ users.",
   stats: [
-    { value: "2+ Years", label: "Experience" },
-    { value: "4", label: "Published Apps" },
+    { value: "4", label: "Production Projects" },
+    { value: "3", label: "Published Apps" },
     { value: "2000+", label: "Daily Users" }
   ],
   social: {

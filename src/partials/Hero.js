@@ -13,6 +13,13 @@ function Hero({ name, title, bio, social }) {
 
       {/* Main content */}
       <div className="hero-content">
+        <div className="hero-avatar-container" data-aos="zoom-in" data-aos-duration="800">
+          <img 
+            src="/me.jpg" 
+            alt="Khaled Gomah" 
+            className="hero-avatar" 
+          />
+        </div>
         <div className="hero-badge">
           <span className="badge-dot"></span>
           Available for work
