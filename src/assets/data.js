@@ -104,6 +104,42 @@ const data = {
       emoji: "🧘",
     },
   ],
+  experience: [
+    {
+      period: "07/2025 - Present",
+      role: "Flutter Developer",
+      company: "Movment",
+      description: [
+        "Spearheaded end-to-end mobile development for a dual-app ecosystem (User & Captain apps) using Flutter.",
+        "Architected the system with Clean Architecture and BLoC to ensure stable daily operations for 2,000+ active enterprise users.",
+        "Optimized REST API integration with Dio and managed complex JSON data flows, resulting in a 30% reduction in app latency and smoother trip-tracking performance."
+      ],
+    },
+    {
+      period: "05/2025 - 09/2025",
+      role: "Freelance Flutter Developer",
+      company: "Self-Employed",
+      description: [
+        "Delivered high-performance apps by transforming complex Figma designs into responsive, pixel-perfect UIs.",
+        "Engineered scalable backends using Firebase to provide seamless real-time user experiences.",
+        "Implemented SOLID principles and Clean Architecture to ensure modular and maintainable codebases."
+      ],
+    }
+  ],
+  education: [
+    {
+      period: "09/2025 - Present",
+      degree: "Cross-Platform Mobile Development Diploma",
+      school: "Information Technology Institute (ITI)",
+      details: "Based in Smart Village - Cairo. Intensive program focused on advanced mobile development and software engineering best practices.",
+    },
+    {
+      period: "2020 - 2025",
+      degree: "Bachelor of Engineering - Computer & Control Systems Engineering",
+      school: "Mansoura University",
+      details: "Graduated with grade: Excellent with Honors.",
+    }
+  ],
 };
 
 export default data;

@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./partials/Navbar";
 import Hero from "./partials/Hero";
 import About from "./partials/About";
+import Experience from "./partials/Experience";
 import Stats from "./partials/Stats";
 import Projects from "./partials/Projects";
 import Skills from "./partials/Skills";
@@ -30,6 +31,7 @@ function App() {
         social={data.social}
       />
       <About about={data.about} location={data.social.location} />
+      <Experience experience={data.experience} education={data.education} />
       <Stats stats={data.stats} />
       <Projects projects={data.projects} />
       <Skills skills={data.skills} />
