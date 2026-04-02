@@ -32,9 +32,7 @@ function Navbar() {
   return (
     <nav className={"navbar" + (scrolled ? " scrolled" : "")}>
       <div className="navbar-inner">
-        <a href="#hero" className="navbar-logo">
-          {'<'}Khaled{' />'}
-        </a>
+        <div className="navbar-logo"></div>
         <button 
           className="navbar-toggle" 
           onClick={() => setMenuOpen(!menuOpen)}

@@ -9,6 +9,7 @@ import Projects from "./partials/Projects";
 import Skills from "./partials/Skills";
 import Contact from "./partials/Contact";
 import Footer from "./partials/Footer";
+import ScrollToTop from "./partials/ScrollToTop";
 import data from "./assets/data";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -37,6 +38,7 @@ function App() {
       <Skills skills={data.skills} />
       <Contact social={data.social} />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }

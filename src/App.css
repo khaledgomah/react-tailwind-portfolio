@@ -1016,6 +1016,36 @@ img {
   line-height: 1.6;
 }
 
+/* ─── 16. Scroll To Top ────────────────────────────────── */
+.scroll-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 999;
+}
+
+.scroll-btn {
+  width: 50px;
+  height: 50px;
+  background: var(--accent-gradient);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 4px 20px var(--glow-primary);
+  transition: all var(--transition-smooth);
+  animation: scaleIn 0.3s ease-out both;
+}
+
+.scroll-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px var(--glow-primary);
+}
+
 /* ─── 12. Responsive ───────────────────────────────────── */
 @media (max-width: 768px) {
   .section {
@@ -1097,6 +1127,11 @@ img {
     margin-left: 0;
     margin-bottom: 30px;
     font-size: 1.2rem;
+  }
+
+  .scroll-to-top {
+    bottom: 20px;
+    right: 20px;
   }
 }
 
